@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   font-weight: 400;
-  color: $dark-blue-text;
+  color: #ffffff;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -14,7 +14,6 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
 
@@ -31,8 +30,10 @@
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
-    margin-bottom: 3.2rem;
-    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 0 auto;
+    text-align: center;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -51,7 +52,9 @@
   }
 
   .hero-cta {
+    margin-top: 2rem;
     display: flex;
+    justify-content: center;
 
     @include respond(tab-port) {
       justify-content: center;

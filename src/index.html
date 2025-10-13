@@ -1,14 +1,4 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
+
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -17,12 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <title>Jasraj Dhaliwal | Full-Stack Developer</title>
+    <meta name="keywords" content="Jasraj Dhaliwal, Full-Stack Developer, JavaScript, React, Node.js, PostgreSQL" />
+    <meta name="description" content="Jasraj Dhaliwal | Full-Stack Developer skilled in React, Node.js, Express, PostgreSQL, API integration, authentication and deployment." />
 
     <link
       rel="stylesheet"
@@ -33,59 +20,54 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          I'm <span class="text-color-main">Jasraj Dhaliwal,</span>
           <br />
-          I'm the Unknown Developer.
+          a Full-Stack Developer.
         </h1>
         <p class="hero-cta load-hidden">
+           <a rel="noreferrer" class="cta-btn cta-btn--primary" href="#projects"
+            >View my Work</a
+          >
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >About Me</a
           >
         </p>
       </div>
     </section>
-    <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
         <h2 class="section-title load-hidden">About me</h2>
         <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                I study computer science and work as a full-stack developer, with a particular emphasis on creating practical web applications. I like to solve issues, write clear code, and transform concepts into useful solutions.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                Using React, Node.js, Express, and PostgreSQL, I have developed and implemented full-stack applications that include backend deployment on Heroku with a live database, user authentication, and API connectivity. I'm currently seeking a software development internship where I can learn from experienced developers, contribute to real-world projects, and continue growing my technical skills.
               </p>
-              <span class="d-flex mt-3">
+              <h3 class="section-title techstack-title">Tech Stack</h3>
+              <div class="techstack-box">
+                <ul class="techstack-list">
+                  <li><strong>Languages:</strong> JavaScript</li>
+                  <li><strong>Frontend:</strong> React, HTML, CSS</li>
+                  <li><strong>Backend:</strong> Node.js, Express, REST APIs, API Integration</li>
+                  <li><strong>Database:</strong> PostgreSQL</li>
+                  <li><strong>Authentication:</strong> JWT / Session-based auth</li>
+                  <li><strong>Tools:</strong> Git & GitHub, npm, Vite, Postman, JSON</li>
+                  <li><strong>Deployment:</strong> Heroku (Backend + DB), Netlify / Vercel</li>
+                </ul>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -94,7 +76,7 @@
                 >
                   View Resume
                 </a>
-              </span>
+              </div>
             </div>
           </div>
         </div>
@@ -107,24 +89,22 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Face Recogintion Front-End</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    A React frontend that allows users to input an image URL and displays detected faces. It communicates with a custom backend API for authentication and image processing.
+                    
+                    Tech: React, JavaScript, CSS, Fetch, Component Architecture
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://facerecogintion.netlify.app/"
                 >
                   See Live
                 </a>
@@ -132,7 +112,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/JasrajDhaliwal/facerecogintionbrain"
                 >
                   Source Code
                 </a>
@@ -140,7 +120,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://facerecogintion.netlify.app/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,7 +131,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/face.png"
                     />
                   </div>
                 </a>
@@ -160,23 +140,23 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Smart-Brain-API (Backend + Clarifai + DB)</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    A secure REST API built with Node.js and Express. Handles user authentication, connects to a PostgreSQL database, forwards image URLs to the Clarifai machine learning API, and returns face detection data to the frontend.
+                    Deployed on Heroku.
+
+                    Tech: Node.js, Express, PostgreSQL, Knex, bcrypt, Clarifai API, JWT/Auth, Heroku
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://hidden-savannah-09182-f76b99f91f15.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -184,7 +164,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/JasrajDhaliwal/smart-brain-api"
                 >
                   Source Code
                 </a>
@@ -192,7 +172,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/JasrajDhaliwal/smart-brain-api" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -203,7 +183,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/brain.png"
                     />
                   </div>
                 </a>
@@ -212,22 +192,22 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">RoboFriends (React fundamentals project)</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                   A React application that fetches robot user data from an API and allows real-time search filtering with dynamic state management.
+
+                  Tech: React, JavaScript, CSS, REST API, Vite
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://jasrajdhaliwal.github.io/robofriends/"
                 >
                   See Live
                 </a>
@@ -235,7 +215,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/JasrajDhaliwal/robofriends"
                 >
                   Source Code
                 </a>
@@ -243,7 +223,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://jasrajdhaliwal.github.io/robofriends/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -254,7 +234,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/robot.png"
                     />
                   </div>
                 </a>
@@ -272,14 +252,17 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+          <p class="contact-wrapper__text">
+              Interested in working together or have an opportunity? Let’s talk!
+            </p>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--resume"
+              href="mailto:jasraj.dhaliwal@gmail.com"
+            >
+              Contact Me
+            </a>
         </div>
       </div>
     </section>
@@ -292,53 +275,19 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/jasraj-dhaliwal-13b68a207/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/JasrajDhaliwal" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
+          © 2025 - Built by Jasraj Dhaliwal
         </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
   </body>
