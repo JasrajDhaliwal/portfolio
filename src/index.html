@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <title>Jasraj Dhaliwal | Full-Stack Developer</title>
-    <meta name="keywords" content="Jasraj Dhaliwal, Full-Stack Developer, JavaScript, React, Node.js, PostgreSQL" />
-    <meta name="description" content="Jasraj Dhaliwal | Full-Stack Developer skilled in React, Node.js, Express, PostgreSQL, API integration, authentication and deployment." />
+    <title>Jasraj Dhaliwal | AI &amp; Full-Stack Developer</title>
+    <meta name="keywords" content="Jasraj Dhaliwal, AI Developer, Full-Stack Developer, Python, FastAPI, Next.js, React, LLM, Claude API, PostgreSQL, TurboCut" />
+    <meta name="description" content="Jasraj Dhaliwal | Computing Science co-op student at UFV and co-founder of TurboCut AI, building AI products with Python, FastAPI, Next.js and LLM APIs." />
 
     <link
       rel="stylesheet"
@@ -29,7 +29,7 @@
         <h1 class="hero-title load-hidden">
           I'm <span class="text-color-main">Jasraj Dhaliwal,</span>
           <br />
-          a Full-Stack Developer.
+          an AI &amp; Full-Stack Developer.
         </h1>
         <p class="hero-cta load-hidden">
            <a rel="noreferrer" class="cta-btn cta-btn--primary" href="#projects"
@@ -50,21 +50,21 @@
           <div class="col-md-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I study computer science and work as a full-stack developer, with a particular emphasis on creating practical web applications. I like to solve issues, write clear code, and transform concepts into useful solutions.
+                I'm a fourth-year Computing Science co-op student at the University of the Fraser Valley, focused on AI engineering. I like building AI products that real people use, from the backend pipeline to the interface.
               </p>
               <p class="about-wrapper__info-text">
-                Using React, Node.js, Express, and PostgreSQL, I have developed and implemented full-stack applications that include backend deployment on Heroku with a live database, user authentication, and API connectivity. I'm currently seeking a software development internship where I can learn from experienced developers, contribute to real-world projects, and continue growing my technical skills.
+                I'm the technical co-founder of TurboCut AI, a prompt-based video editor with real, paying users, built on FastAPI, Celery, Postgres and Next.js with Claude and Gemini making the editing decisions. I've also built a real-time vision assistant for visually impaired users and an energy-aware delivery robot simulator. I'm looking for a Summer 2027 co-op in AI/ML or software engineering.
               </p>
               <h3 class="section-title techstack-title">Tech Stack</h3>
               <div class="techstack-box">
                 <ul class="techstack-list">
-                  <li><strong>Languages:</strong> JavaScript</li>
-                  <li><strong>Frontend:</strong> React, HTML, CSS</li>
-                  <li><strong>Backend:</strong> Node.js, Express, REST APIs, API Integration</li>
-                  <li><strong>Database:</strong> PostgreSQL</li>
-                  <li><strong>Authentication:</strong> JWT / Session-based auth</li>
-                  <li><strong>Tools:</strong> Git & GitHub, npm, Vite, Postman, JSON</li>
-                  <li><strong>Deployment:</strong> Heroku (Backend + DB), Netlify / Vercel</li>
+                  <li><strong>Languages:</strong> Python, JavaScript, SQL</li>
+                  <li><strong>AI:</strong> Claude API, Gemini API, speech-to-text (ElevenLabs, Deepgram), OpenCV</li>
+                  <li><strong>Backend:</strong> FastAPI, Celery, Flask, Node.js, Express, REST APIs</li>
+                  <li><strong>Frontend:</strong> Next.js, React, TanStack Query, HTML, CSS</li>
+                  <li><strong>Data:</strong> PostgreSQL, Redis, NumPy, matplotlib</li>
+                  <li><strong>Infrastructure:</strong> Railway, Modal, Cloudflare (R2, Pages), CI/CD, Sentry</li>
+                  <li><strong>Tools:</strong> Git &amp; GitHub, Stripe, Clerk</li>
                 </ul>
               </div>
               <div class="d-flex justify-content-center mt-4">
@@ -92,35 +92,27 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Face Recogintion Front-End</h3>
+                <h3 class="project-wrapper__text-title">TurboCut AI</h3>
                 <div>
                   <p class="mb-4">
-                    A React frontend that allows users to input an image URL and displays detected faces. It communicates with a custom backend API for authentication and image processing.
-                    
-                    Tech: React, JavaScript, CSS, Fetch, Component Architecture
+                    An AI video editor you talk to. Creators upload a video or import a Twitch, Kick or YouTube VOD; TurboCut transcribes it, makes a first cut automatically, and lets them refine it by chatting ("cut the intro, keep the argument"). Live with real, paying users. I handle technical development.
+
+                    Tech: FastAPI, Celery, Redis, Postgres, Next.js, ffmpeg on Modal, Cloudflare, Claude, Gemini, Stripe
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://facerecogintion.netlify.app/"
+                  href="https://turbocutai.com"
                 >
                   See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/JasrajDhaliwal/facerecogintionbrain"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://facerecogintion.netlify.app/" target="_blank">
+                <a rel="noreferrer" href="https://turbocutai.com" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -129,9 +121,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="TurboCut AI homepage"
                       class="img-fluid"
-                      src="assets/face.png"
+                      src="assets/turbocut.png"
                     />
                   </div>
                 </a>
@@ -143,28 +135,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Smart-Brain-API (Backend + Clarifai + DB)</h3>
+                <h3 class="project-wrapper__text-title">VisionAssist</h3>
                 <div>
                   <p class="mb-4">
-                    A secure REST API built with Node.js and Express. Handles user authentication, connects to a PostgreSQL database, forwards image URLs to the Clarifai machine learning API, and returns face detection data to the frontend.
-                    Deployed on Heroku.
+                    A desktop app that describes a live camera feed out loud for visually impaired users, flagging hazards with ALERT / HEADS UP priorities. Six modes: scene description, walking navigation, change detection, follow-up Q&amp;A, reading text and finding objects. Speech streams sentence by sentence, with hands-free wake-word control.
 
-                    Tech: Node.js, Express, PostgreSQL, Knex, bcrypt, Clarifai API, JWT/Auth, Heroku
+                    Tech: Python, OpenCV, Tkinter, Claude vision API, speech recognition
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://hidden-savannah-09182-f76b99f91f15.herokuapp.com/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/JasrajDhaliwal/smart-brain-api"
+                  href="https://github.com/JasrajDhaliwal/VisionAssist"
                 >
                   Source Code
                 </a>
@@ -172,7 +155,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://github.com/JasrajDhaliwal/smart-brain-api" target="_blank">
+                <a rel="noreferrer" href="https://github.com/JasrajDhaliwal/VisionAssist" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -181,9 +164,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="VisionAssist modes"
                       class="img-fluid"
-                      src="assets/brain.png"
+                      src="assets/visionassist.png"
                     />
                   </div>
                 </a>
@@ -195,27 +178,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">RoboFriends (React fundamentals project)</h3>
+                <h3 class="project-wrapper__text-title">Autonomous Delivery Robot Simulator</h3>
                 <div>
                   <p class="mb-4">
-                   A React application that fetches robot user data from an API and allows real-time search filtering with dynamic state management.
+                   A delivery robot planning routes across a procedurally generated hilly city. BFS, Dijkstra and A* built from scratch, a terrain-aware energy model with downhill regeneration, battery-safe FAST/ECO/V2X mode choice, charging-hub detours and deadline-based stop ordering. Rendered in 2D and as an interactive 3D city.
 
-                  Tech: React, JavaScript, CSS, REST API, Vite
+                  Tech: Python, NumPy, matplotlib, Panda3D
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://jasrajdhaliwal.github.io/robofriends/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/JasrajDhaliwal/robofriends"
+                  href="https://github.com/JasrajDhaliwal/AutonomousRobotSimulator"
                 >
                   Source Code
                 </a>
@@ -223,7 +198,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://jasrajdhaliwal.github.io/robofriends/" target="_blank">
+                <a rel="noreferrer" href="https://github.com/JasrajDhaliwal/AutonomousRobotSimulator" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -232,9 +207,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="Robot simulator mission map"
                       class="img-fluid"
-                      src="assets/robot.png"
+                      src="assets/robot-sim.png"
                     />
                   </div>
                 </a>
@@ -286,7 +261,7 @@
         <hr />
 
         <p class="footer__text">
-          © 2025 - Built by Jasraj Dhaliwal
+          © 2026 - Built by Jasraj Dhaliwal
         </p>
 
     <script defer type="module" src="index.js"></script>
